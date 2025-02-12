@@ -46,6 +46,10 @@ public class FadeCanvas : MonoBehaviour
         CurrentRoutine = StartCoroutine(FadeOut(quickFadeDuration));
     }
 
+    public void StartFadeInFadeOutWithGap(CanvasGroup cg, float fadeInDuration, float fadeOutDuration, float totalAnimationDuration){
+        
+    }
+
     private IEnumerator FadeIn(float duration)
     {
         float elapsedTime = 0.0f;

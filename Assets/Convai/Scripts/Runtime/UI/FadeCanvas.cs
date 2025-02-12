@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-
 namespace Convai.Scripts.Runtime.UI
 {
     /// <summary>
