@@ -35,6 +35,7 @@ public class MushroomUIManager : MonoBehaviour
         //    Debug.Log("Touch");
         //    indexSystem.UnlockIndex();
         //    // Show the mushroom name panel
+        
         mushroomInfo.text = mushroom.mushroominfor;
         mushroomInfoName.text = mushroom.mushroomname;
         mushroomType.text = "Type: " + mushroom.mushroomtype.ToString();
