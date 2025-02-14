@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ac6260db761a6419fa91e8f870490c, type: 3}
+  m_Name: Green
+  m_EditorClassIdentifier: 
+  mushroomname: Olive
+  mushroominfor: So green, so fresh and so dead when you eat it. So fragrant and
+    until you can't breathe. There is one way that can help you, that is to wait
+    and smile until you die.
+  image: {fileID: 21300000, guid: 879a17c8cd3812d4d81c9f075eb73bee, type: 3}
+  mushroomtype: 1
