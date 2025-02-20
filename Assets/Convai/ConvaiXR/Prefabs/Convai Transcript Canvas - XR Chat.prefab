@@ -378,6 +378,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 955}
+    - targetCorrespondingSourceObject: {fileID: 7250611778303013844, guid: 2a227c28daac328438a90156a33eda44,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3257402286822128428}
   m_SourcePrefab: {fileID: 100100000, guid: 2a227c28daac328438a90156a33eda44, type: 3}
 --- !u!1 &8487712917535926455 stripped
 GameObject:
@@ -400,3 +404,22 @@ MonoBehaviour:
   _lerpSpeed: 6.5
   _offset: {x: -0.65, y: 1, z: 0.15}
   _cameraDistanceThreshold: 5
+--- !u!114 &3257402286822128428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8487712917535926455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
