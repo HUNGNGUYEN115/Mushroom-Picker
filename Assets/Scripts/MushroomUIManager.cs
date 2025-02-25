@@ -18,6 +18,11 @@ public class MushroomUIManager : MonoBehaviour
 
     private bool isGrabbed = false;
 
+    void Start(){
+        // do this at the very beggining so that it's loaded, maybe?
+        mushroomName.text = mushroom.mushroomname;
+    }
+
     public void Touch()
     {
         mushroomInfo.text = mushroom.mushroominfor;
