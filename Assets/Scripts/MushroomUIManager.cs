@@ -23,6 +23,15 @@ public class MushroomUIManager : MonoBehaviour
         mushroomInfo.text = mushroom.mushroominfor;
         mushroomInfoName.text = mushroom.mushroomname;
         mushroomType.text = "Type: " + mushroom.mushroomtype.ToString();
+        if (mushroom.mushroomtype == Type.Edible)
+        {
+            mushroomType.color = Color.green;
+
+        }
+        else
+        {
+            mushroomType.color = Color.red;
+        }
     }
 
     public void OnHoverEnter(HoverEnterEventArgs args)

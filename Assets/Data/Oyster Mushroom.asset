@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Oyster Mushroom
   m_EditorClassIdentifier: 
   mushroomname: 'Oyster Mushroom '
-  mushroominfor: "\u2022\tImagine finding mushrooms that look like elegant little
-    fans growing on old trees\u2014meet the Oyster Mushroom. These white to grayish
-    clusters are not only visually stunning but also a delightful addition to your
-    dinner plate. Tasty and meaty, they\u2019re great for stir-fries, soups, or even
-    as a vegan meat substitute. They can be found on decaying hardwoods in Finnish
-    forests, especially during the cooler months like autumn and winter. Just remember:
-    nature\u2019s woodworkers make some of the best mushrooms!"
+  mushroominfor: "Imagine finding mushrooms that look like elegant little fans growing
+    on old trees\u2014meet the Oyster Mushroom. These white to grayish clusters are
+    not only visually stunning but also a delightful addition to your dinner plate.
+    Tasty and meaty, they\u2019re great for stir-fries, soups, or even as a vegan
+    meat substitute. They can be found on decaying hardwoods in Finnish forests,
+    especially during the cooler months like autumn and winter. Just remember: nature\u2019s
+    woodworkers make some of the best mushrooms!"
   image: {fileID: 0}
   mushroomtype: 0
