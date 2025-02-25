@@ -17,6 +17,7 @@ public class MushroomUIManager : MonoBehaviour
     public static MushroomUIManager currentHoveredMushroom;
 
     //public  GameObject infoPanel;
+    private bool isGrabbed = false;
     public void Update()
     {
         //mushroomName.text = mushroom.mushroomname;
@@ -56,14 +57,32 @@ public class MushroomUIManager : MonoBehaviour
     //{
 
 
-        
+    public void OnSelectEnter(SelectEnterEventArgs args)
+    {
+        isGrabbed = true;
+        namePanel.gameObject.SetActive(true);
+        namePanel.OpenPanel();
+        mushroomName.text = mushroom.mushroomname;
+        Debug.Log("Grabbed");
+
+    }
 
     //}
     public void OnHoverExit(HoverExitEventArgs args)
     {
+        if (!isGrabbed) // Only close if not grabbed
+        {
+            namePanel.ClosePanel();
+            Debug.Log("Hover Exit");
+            currentHoveredMushroom = null;
+        }
+    }
+    public void OnSelectExit(SelectExitEventArgs args)
+    {
+
+        isGrabbed = false;
         namePanel.ClosePanel();
-        Debug.Log("Leave");
-        // Reset current hovered mushroom
+        Debug.Log("Released");
         currentHoveredMushroom = null;
     }
 

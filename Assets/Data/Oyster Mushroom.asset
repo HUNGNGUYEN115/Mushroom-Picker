@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ac6260db761a6419fa91e8f870490c, type: 3}
+  m_Name: Oyster Mushroom
+  m_EditorClassIdentifier: 
+  mushroomname: 'Oyster Mushroom '
+  mushroominfor: "\u2022\tImagine finding mushrooms that look like elegant little
+    fans growing on old trees\u2014meet the Oyster Mushroom. These white to grayish
+    clusters are not only visually stunning but also a delightful addition to your
+    dinner plate. Tasty and meaty, they\u2019re great for stir-fries, soups, or even
+    as a vegan meat substitute. They can be found on decaying hardwoods in Finnish
+    forests, especially during the cooler months like autumn and winter. Just remember:
+    nature\u2019s woodworkers make some of the best mushrooms!"
+  image: {fileID: 0}
+  mushroomtype: 0

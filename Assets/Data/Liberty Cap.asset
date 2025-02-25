@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ac6260db761a6419fa91e8f870490c, type: 3}
+  m_Name: Liberty Cap
+  m_EditorClassIdentifier: 
+  mushroomname: 'Liberty Cap '
+  mushroominfor: "\u2022\tThe Liberty Cap is like the mischievous cousin of the mushroom
+    world. Tiny, bell-shaped, and a little too adventurous for most, this mushroom
+    packs a psychedelic punch. Containing psilocybin, it\u2019s not the kind of mushroom
+    you want to casually snack on, unless you're a fan of strange trips and questionable
+    decisions. So, do yourself a favor: don\u2019t pick this! Keep your eyes on the
+    ground and leave this little hallucinogenic wonder to the more experienced foragers.
+    Found in meadows and grasslands, especially after autumn rains, it\u2019s best
+    admired from a distance. Trust me, your brain will thank you!"
+  image: {fileID: 0}
+  mushroomtype: 1
