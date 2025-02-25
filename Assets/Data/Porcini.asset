@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ac6260db761a6419fa91e8f870490c, type: 3}
+  m_Name: Porcini
+  m_EditorClassIdentifier: 
+  mushroomname: 'Porcini '
+  mushroominfor: "\u2022\tIf there were a mushroom royalty, Porcini would wear the
+    crown. With its robust flavor and thick, meaty texture, this earthy delight is
+    a must for any chef. Known for its nutty taste, the porcini shines when dried
+    or saut\xE9ed. It\u2019s perfect for soups, risottos, and sauces that want a
+    rich, savory depth. You\u2019ll spot this king of mushrooms in Finland\u2019s
+    pine and spruce forests, particularly in summer and autumn, often growing in
+    partnership with birch trees. A true gourmet's find!"
+  image: {fileID: 0}
+  mushroomtype: 0
