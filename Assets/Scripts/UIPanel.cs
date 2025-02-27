@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIPanelAnimation : MonoBehaviour
 {
@@ -42,5 +43,9 @@ public class UIPanelAnimation : MonoBehaviour
     public void Click()
     {
         Sound.SXF(Sound.click);
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
