@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Chanterelle
   m_EditorClassIdentifier: 
   mushroomname: 'Chanterelle '
-  mushroominfor: "\u2022\tThe Chanterelle is the golden treasure of Finnish forests.
-    These trumpet-shaped beauties, with their cheerful yellow hue and fruity fragrance,
+  mushroominfor: "The Chanterelle is the golden treasure of Finnish forests. These
+    trumpet-shaped beauties, with their cheerful yellow hue and fruity fragrance,
     are as much a treat for the eyes as they are for the taste buds. A must-have
     for any mushroom lover, they\u2019re incredibly flavorful when saut\xE9ed and
     add a wonderful depth to soups and sauces. Just be sure to cook them before eating\u2014raw

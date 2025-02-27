@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Fly Agaric
   m_EditorClassIdentifier: 
   mushroomname: 'Fly Agaric '
-  mushroominfor: "\u2022\tThe Fly Agaric is probably the most iconic mushroom in
-    the forest, with its bright red cap and white speckles straight out of a fairy
-    tale. While it\u2019s stunning to look at, don\u2019t eat it! This mushroom is
-    toxic in its raw form and should be avoided unless you're a mushroom expert\u2014although
+  mushroominfor: "The Fly Agaric is probably the most iconic mushroom in the forest,
+    with its bright red cap and white speckles straight out of a fairy tale. While
+    it\u2019s stunning to look at, don\u2019t eat it! This mushroom is toxic in its
+    raw form and should be avoided unless you're a mushroom expert\u2014although
     it\u2019s been used in ancient rituals (safely, mind you). You\u2019ll find it
     in birch, pine, and spruce forests across Finland, especially in autumn. So,
     while it makes for a great photo op, leave it be!"

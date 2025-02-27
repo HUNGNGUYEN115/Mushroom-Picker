@@ -10,4 +10,4 @@ public class MushroomData : ScriptableObject
     public Sprite image; 
     public Type mushroomtype;
 }
-public enum Type { edible, poisonous }
+public enum Type {Edible,Poisonous }

@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Porcini
   m_EditorClassIdentifier: 
   mushroomname: 'Porcini '
-  mushroominfor: "\u2022\tIf there were a mushroom royalty, Porcini would wear the
-    crown. With its robust flavor and thick, meaty texture, this earthy delight is
-    a must for any chef. Known for its nutty taste, the porcini shines when dried
-    or saut\xE9ed. It\u2019s perfect for soups, risottos, and sauces that want a
-    rich, savory depth. You\u2019ll spot this king of mushrooms in Finland\u2019s
-    pine and spruce forests, particularly in summer and autumn, often growing in
-    partnership with birch trees. A true gourmet's find!"
+  mushroominfor: "If there were a mushroom royalty, Porcini would wear the crown.
+    With its robust flavor and thick, meaty texture, this earthy delight is a must
+    for any chef. Known for its nutty taste, the porcini shines when dried or saut\xE9ed.
+    It\u2019s perfect for soups, risottos, and sauces that want a rich, savory depth.
+    You\u2019ll spot this king of mushrooms in Finland\u2019s pine and spruce forests,
+    particularly in summer and autumn, often growing in partnership with birch trees.
+    A true gourmet's find!"
   image: {fileID: 0}
   mushroomtype: 0
