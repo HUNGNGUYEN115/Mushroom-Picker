@@ -24,13 +24,27 @@ public class HandInfo : MonoBehaviour
     {
         RaycastHit raycastHit;
         if (GetComponent<XRRayInteractor>().TryGetCurrent3DRaycastHit(out raycastHit)){
-            GameObject obj = raycastHit.collider.gameObject.transform.parent.gameObject;
-            _dynamicInfoController.SetDynamicInfo("I am currently holding " + obj.name + " in my "+ _name + " hand.");
-            print("I am currently holding " + obj.name + " in my "+ _name + " hand.");
-        }else{
-            _dynamicInfoController.SetDynamicInfo("I am currently holding nothing in my "+ _name + " hand.");
-            print("I am currently holding nothing in my "+ _name + " hand.");
+            Transform t = raycastHit.collider.gameObject.transform.parent;
+            GameObject obj;
+            if (t != null){
+                obj = t.gameObject;
+            }else{
+                obj = null;
+            }
+            MushroomUIManager mui;
+            if (obj != null){
+                mui = obj.GetComponent<MushroomUIManager>();
+            }else{
+                mui = null;
+            }
+            if (mui != null){
+                _dynamicInfoController.SetDynamicInfo("I am currently holding " + mui.mushroom.mushroomname + " in my "+ _name + " hand.");
+                print("I am currently holding " + obj.name + " in my "+ _name + " hand.");
+                return;
+            }
         }
+        _dynamicInfoController.SetDynamicInfo("I am currently holding nothing in my "+ _name + " hand.");
+        print("I am currently holding nothing in my "+ _name + " hand.");
     }
 
 }
