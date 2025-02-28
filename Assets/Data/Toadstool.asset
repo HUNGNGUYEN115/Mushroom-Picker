@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ac6260db761a6419fa91e8f870490c, type: 3}
+  m_Name: Toadstool
+  m_EditorClassIdentifier: 
+  mushroomname: 'Toadstool '
+  mushroominfor: "The Toadstool, with its iconic red cap speckled with white warts,
+    is the fairytale star of Finnish forests. Often found nestled among birch and
+    pine, these mushrooms bring a whimsical touch to the woodland floor. However,
+    their beauty is deceptive\u2014while mesmerizing to look at, Toadstools are toxic
+    and not for eating. Historically, they\u2019ve played roles in folklore and traditional
+    practices, but for modern foragers, they serve more as a reminder of nature\u2019s
+    balance between allure and danger. Admire them from afar, but keep them out of
+    your basket!"
+  image: {fileID: 21300000, guid: 3cc736ec3493add4bb1c25e0d7c582af, type: 3}
+  mushroomtype: 1

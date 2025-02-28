@@ -21,7 +21,7 @@ public class SoupScript : MonoBehaviour
         }
         MushroomData data = othUI.mushroom;
 
-        if(data.mushroomtype == Type.poisonous){
+        if(data.mushroomtype == Type.Poisonous){
             Debug.Log("Poisonous");
             GetComponent<SpriteRenderer>().color = poisonColor;
         }else{
