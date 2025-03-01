@@ -7,13 +7,14 @@ public class SoupScript : MonoBehaviour
     public Color goodColor;
     public Color poisonColor;
     public Color HalucinogenicColor;
+    public GameObject gameOver;
     // Start is called before the first frame update
     void Start(){
         
     }
 
     void OnTriggerEnter(Collider other){
-        MushroomUIManager othUI=other.gameObject.transform.parent.gameObject.GetComponent<MushroomUIManager>();
+        MushroomUIManager othUI=other.gameObject.GetComponent<MushroomUIManager>();
         if(othUI == null){
             Debug.Log("No Mushroom");
             Debug.Log(other.gameObject.name);
@@ -24,11 +25,13 @@ public class SoupScript : MonoBehaviour
         if(data.mushroomtype == Type.Poisonous){
             Debug.Log("Poisonous");
             GetComponent<SpriteRenderer>().color = poisonColor;
+            gameOver.SetActive(true);
+            gameOver.GetComponent<UIPanelAnimation>().TogglePanel();
         }else{
             Debug.Log("Edible");
             GetComponent<SpriteRenderer>().color = goodColor;
         }
-        Destroy(other.gameObject.transform.parent.gameObject);
+        Destroy(other.gameObject);
 
     }
 }
