@@ -64,6 +64,9 @@ public class MushroomUIManager : MonoBehaviour
     public void OnSelectEnter(SelectEnterEventArgs args)
     {
         isGrabbed = true;
+        Rigidbody rb = GetComponent<Rigidbody>();
+
+        rb.isKinematic = false; // Allow physics while grabbed
         namePanel.gameObject.SetActive(true);
         indexSystem.UnlockIndex();
       
@@ -74,7 +77,8 @@ public class MushroomUIManager : MonoBehaviour
     public void OnSelectExit(SelectExitEventArgs args)
     {
         isGrabbed = false;
-        
+        Rigidbody rb = GetComponent<Rigidbody>();
+        rb.isKinematic = false;
         Debug.Log("Released");
         
     }
