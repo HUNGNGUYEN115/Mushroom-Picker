@@ -24,12 +24,12 @@ public class SoupScript : MonoBehaviour
 
         if(data.mushroomtype == Type.Poisonous){
             Debug.Log("Poisonous");
-            GetComponent<SpriteRenderer>().color = poisonColor;
+            //GetComponent<SpriteRenderer>().color = poisonColor;
             gameOver.SetActive(true);
             gameOver.GetComponent<UIPanelAnimation>().TogglePanel();
         }else{
             Debug.Log("Edible");
-            GetComponent<SpriteRenderer>().color = goodColor;
+            //GetComponent<SpriteRenderer>().color = goodColor;
         }
         Destroy(other.gameObject);
 
