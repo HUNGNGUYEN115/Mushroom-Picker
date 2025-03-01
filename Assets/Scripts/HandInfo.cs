@@ -22,15 +22,10 @@ public class HandInfo : MonoBehaviour
 
     public void newHolding()
     {
+        print("called!");
         RaycastHit raycastHit;
         if (GetComponent<XRRayInteractor>().TryGetCurrent3DRaycastHit(out raycastHit)){
-            Transform t = raycastHit.collider.gameObject.transform.parent;
-            GameObject obj;
-            if (t != null){
-                obj = t.gameObject;
-            }else{
-                obj = null;
-            }
+            GameObject obj = raycastHit.collider.gameObject;
             MushroomUIManager mui;
             if (obj != null){
                 mui = obj.GetComponent<MushroomUIManager>();
@@ -38,8 +33,8 @@ public class HandInfo : MonoBehaviour
                 mui = null;
             }
             if (mui != null){
-                _dynamicInfoController.SetDynamicInfo("I am currently holding " + mui.mushroom.mushroomname + " in my "+ _name + " hand.");
-                print("I am currently holding " + obj.name + " in my "+ _name + " hand.");
+                _dynamicInfoController.SetDynamicInfo("I am currently holding  a " + mui.mushroom.mushroomname + " in my "+ _name + " hand.");
+                print("I am currently holding a " + mui.mushroom.mushroomname + " in my "+ _name + " hand.");
                 return;
             }
         }
